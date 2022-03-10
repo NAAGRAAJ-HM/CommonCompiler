@@ -1,6 +1,6 @@
 #pragma once
 /*****************************************************/
-/* File   : Compiler_Cfg_Swc_Os.h                    */
+/* File   : Compiler_Cfg_SwcServiceEcuM.h            */
 /* Author : Naagraaj HM                              */
 /*****************************************************/
 
@@ -11,21 +11,21 @@
 /*****************************************************/
 /* #DEFINES                                          */
 /*****************************************************/
-#define SWC_OS_CODE                      /*TBD*/
-#define SWC_OS_CODE_CB                   /*TBD*/
-#define SWC_OS_CODE_FAST                 /*TBD*/
-#define SWC_OS_CODE_SLOW                 /*TBD*/
-#define SWC_OS_CONST                     /*TBD*/
-#define SWC_OS_CALIB                     /*TBD*/
-#define SWC_OS_CONFIG_DATA               /*TBD*/
-#define SWC_OS_CONST_SAVED_RECOVERY_ZONE /*TBD*/
-#define SWC_OS_APPL_DATA                 /*TBD*/
-#define SWC_OS_APPL_CONST                /*TBD*/
-#define SWC_OS_VAR                       /*TBD*/
-#define SWC_OS_VAR_FAST                  /*TBD*/
-#define SWC_OS_VAR_SLOW                  /*TBD*/
-#define SWC_OS_INTERNAL_VAR              /*TBD*/
-#define SWC_OS_VAR_SAVED_ZONE            /*TBD*/
+#define SWCSERVICEECUM_CODE                      /*TBD*/
+#define SWCSERVICEECUM_CODE_CB                   /*TBD*/
+#define SWCSERVICEECUM_CODE_FAST                 /*TBD*/
+#define SWCSERVICEECUM_CODE_SLOW                 /*TBD*/
+#define SWCSERVICEECUM_CONST                     /*TBD*/
+#define SWCSERVICEECUM_CALIB                     /*TBD*/
+#define SWCSERVICEECUM_CONFIG_DATA               /*TBD*/
+#define SWCSERVICEECUM_CONST_SAVED_RECOVERY_ZONE /*TBD*/
+#define SWCSERVICEECUM_APPL_DATA                 /*TBD*/
+#define SWCSERVICEECUM_APPL_CONST                /*TBD*/
+#define SWCSERVICEECUM_VAR                       /*TBD*/
+#define SWCSERVICEECUM_VAR_FAST                  /*TBD*/
+#define SWCSERVICEECUM_VAR_SLOW                  /*TBD*/
+#define SWCSERVICEECUM_INTERNAL_VAR              /*TBD*/
+#define SWCSERVICEECUM_VAR_SAVED_ZONE            /*TBD*/
 
 /*****************************************************/
 /* MACROS                                            */
