@@ -22,7 +22,12 @@
 #define __RESTRICT                             __restrict
 #define __SEV()
 
-#define __SSAT(ARG1, ARG2)   0
+//#define __SSAT(ARG1, ARG2)   0
+extern sint32 __SSAT(
+      sint32 x
+   ,  sint32 y
+);
+
 #define __SSAT16(ARG1, ARG2) 0
 #define __STACK_LIMIT             __StackLimit
 #define __STACK_SEAL              __StackSeal

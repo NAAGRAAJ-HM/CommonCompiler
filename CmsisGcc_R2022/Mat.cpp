@@ -525,3 +525,8 @@ sint16 Mat_Ramp(
    *Output = outp;
    return(outp >> 16);
 }
+
+sint16 abs(sint16 inp){
+   if(0 <= inp) return  inp;
+   else         return -inp;
+}

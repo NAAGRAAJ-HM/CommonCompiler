@@ -75,6 +75,8 @@ typedef struct{
 /******************************************************************************/
 /* FUNCTIONS                                                                  */
 /******************************************************************************/
+extern sint16   abs                                                (sint16 inp);
+
 /*
 #define Mat_ExePi(pPi,Error)                                                   0
 #define Mat_ExePi_Windup(pPi,Error)                                            0
