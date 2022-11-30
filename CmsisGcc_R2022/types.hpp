@@ -108,11 +108,6 @@ typedef struct{
    sint16 Imag;
 }TComplex;
 
-typedef struct{
-   sint16 A;
-   sint16 B;
-}TPhaseCurr;
-
 /*
 typedef enum{
       false = 0

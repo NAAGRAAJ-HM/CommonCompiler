@@ -94,7 +94,6 @@ sint16 Mat_ExePi(TMat_Pi *pPi, sint16 Error);
 sint16 Mat_ExePi_Windup(TMat_Pi_Windup *pPi, sint16 Error);
 sint16 Mat_ExeLp(TMat_Lp *pLp, sint16 Input);
 sint16 Mat_ExeLp_without_min_max(TMat_Lp_Simple *pLp, sint16 Input);
-TComplex Mat_Clarke(TPhaseCurr PhaseCurr);
 TComplex Mat_Park(TComplex StatCurr, uint16 Angle);
 TComplex Mat_InvPark(TComplex RotVolt, uint16 Angle);
 TComplex Mat_PolarKartesisch(uint16 Amp, uint16 Angle);
@@ -122,10 +121,6 @@ extern sint16 Mat_ExeLp(
 extern sint16 Mat_ExeLp_without_min_max(
       TMat_Lp_Simple* pLp
    ,  sint16          Input
-);
-
-extern TComplex Mat_Clarke(
-   TPhaseCurr PhaseCurr
 );
 
 extern TComplex Mat_Park(

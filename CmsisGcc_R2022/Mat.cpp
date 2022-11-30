@@ -198,26 +198,6 @@ sint16 Mat_ExeLp_without_min_max(
    return(sint16)(Out >> 15u);
 }
 
-TComplex Mat_Clarke(
-   TPhaseCurr PhaseCurr
-){
-   TComplex StatCurr      = {0, 0};
-   StatCurr.Real = __SSAT(
-         4 * PhaseCurr.A
-      ,  MAT_FIX_SAT
-   );
-   StatCurr.Imag = (sint16)__SSAT(
-         Mat_FixMulScale(
-               MAT_ONE_OVER_SQRT_3
-            ,          ((sint32)PhaseCurr.A)
-               +  (2 * ((sint32)PhaseCurr.B))
-            ,  2
-         )
-      ,  MAT_FIX_SAT
-   );
-   return StatCurr;
-}
-
 TComplex Mat_Park(
       TComplex StatCurr
    ,  uint16   Angle
