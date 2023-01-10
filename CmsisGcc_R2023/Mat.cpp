@@ -39,17 +39,45 @@
 /******************************************************************************/
 /* FUNCTIONS                                                                  */
 /******************************************************************************/
-extern void Debug_Here(void);
 sint32 __SSAT(
-      sint32 x
-   ,  sint32 y
+      sint32 ls32X
+   ,  sint32 ls32Y
 ){
-   UNUSED(x);
-   UNUSED(y);
+   sint32 ls32Sat = (1 << ls32Y)-1;
+   if(
+         ls32X
+      >  ls32Sat
+   ){
+      ls32X = ls32Sat;
+   }
+   return ls32X;
+}
+
+#include "DebugHere.hpp"
+sint32 Mat_FixMulScale(
+      sint32 Factor1
+   ,  sint32 Factor2
+   ,  sint32 Scale
+){
 /******************************************************************************/
-   Debug_Here();
+   DebugHere(40, DebugHere_Proceed, Factor1);
 /******************************************************************************/
-   return 0u;
+/******************************************************************************/
+   DebugHere(41, DebugHere_Proceed, Factor2);
+/******************************************************************************/
+   sint32 ls32Result = Factor1 * Factor2;
+/******************************************************************************/
+   DebugHere(42, DebugHere_Proceed, ls32Result);
+/******************************************************************************/
+   uint32 lu32Shift  = MAT_FIX_SHIFT - Scale;
+/******************************************************************************/
+   DebugHere(43, DebugHere_Proceed, lu32Shift);
+/******************************************************************************/
+          ls32Result = ls32Result >> lu32Shift;
+/******************************************************************************/
+   DebugHere(44, DebugHere_Proceed, ls32Result);
+/******************************************************************************/
+   return ls32Result;
 }
 
 sint16 Mat_ExePi(
@@ -263,6 +291,7 @@ TComplex Mat_PolarKartesisch(
    return StatOut;
 }
 
+#include "DebugHere.hpp"
 uint16 Mat_CalcAngleAmp(
       TComplex Stat
    ,  uint16*  pAmp
@@ -290,9 +319,15 @@ uint16 Mat_CalcAngleAmp(
          AbsImag
       <= AbsReal
    ){
+/******************************************************************************/
+   DebugHere(1, DebugHere_Proceed, AbsReal);
+/******************************************************************************/
       Index      = (((uint32)AbsImag) * 1024u) / ((uint32)AbsReal);
+/******************************************************************************/
+   DebugHere(2, DebugHere_Proceed, -1);
+/******************************************************************************/
       TableValue = Table_ArcTan[Index];
-      *pAmp      = (((uint32)AbsReal) * Table_Amp[Index]) >> 15u;
+      *pAmp      = (((uint32)AbsReal) * Table_Amp[Index]) >> MAT_FIX_SHIFT;
 
       if(
             Stat.Real
@@ -321,9 +356,15 @@ uint16 Mat_CalcAngleAmp(
       }
    }
    else{
+/******************************************************************************/
+   DebugHere(3, DebugHere_Proceed, -1);
+/******************************************************************************/
       Index      = (((uint32)AbsReal) * 1024u) / ((uint32)AbsImag);
+/******************************************************************************/
+   DebugHere(4, DebugHere_Proceed, -1);
+/******************************************************************************/
       TableValue = Table_ArcTan[Index];
-      *pAmp      = (((uint32)AbsImag) * Table_Amp[Index]) >> 15u;
+      *pAmp      = (((uint32)AbsImag) * Table_Amp[Index]) >> MAT_FIX_SHIFT;
 
       if(
             Stat.Real
@@ -352,7 +393,10 @@ uint16 Mat_CalcAngleAmp(
       }
    }
 
-   return(uint16)Angle;
+/******************************************************************************/
+   DebugHere(5, DebugHere_Proceed, -1);
+/******************************************************************************/
+   return/*(uint16)*/Angle;
 }
 
 uint16 Mat_CalcAngle(
