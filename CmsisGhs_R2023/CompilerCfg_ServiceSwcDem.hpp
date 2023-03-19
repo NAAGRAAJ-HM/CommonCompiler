@@ -1,6 +1,6 @@
 #pragma once
 /******************************************************************************/
-/* File   : CompilerCfg_ServiceDet.hpp                                        */
+/* File   : CompilerCfg_ServiceSwcDem.hpp                                     */
 /* Author : NAGARAJA HM (c) since 1982. All rights reserved.                  */
 /******************************************************************************/
 
@@ -11,21 +11,21 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define SERVICEDET_CODE                                                         /*TBD*/
-#define SERVICEDET_CODE_CB                                                      /*TBD*/
-#define SERVICEDET_CODE_FAST                                                    /*TBD*/
-#define SERVICEDET_CODE_SLOW                                                    /*TBD*/
-#define SERVICEDET_CONST                                                        /*TBD*/
-#define SERVICEDET_CALIB                                                        /*TBD*/
-#define SERVICEDET_CONFIG_DATA                                                  /*TBD*/
-#define SERVICEDET_CONST_SAVED_RECOVERY_ZONE                                    /*TBD*/
-#define SERVICEDET_APPL_DATA                                                    /*TBD*/
-#define SERVICEDET_APPL_CONST                                                   /*TBD*/
-#define SERVICEDET_VAR                                                          /*TBD*/
-#define SERVICEDET_VAR_FAST                                                     /*TBD*/
-#define SERVICEDET_VAR_SLOW                                                     /*TBD*/
-#define SERVICEDET_INTERNAL_VAR                                                 /*TBD*/
-#define SERVICEDET_VAR_SAVED_ZONE                                               /*TBD*/
+#define SERVICESWCDEM_CODE                                                         /*TBD*/
+#define SERVICESWCDEM_CODE_CB                                                      /*TBD*/
+#define SERVICESWCDEM_CODE_FAST                                                    /*TBD*/
+#define SERVICESWCDEM_CODE_SLOW                                                    /*TBD*/
+#define SERVICESWCDEM_CONST                                                        /*TBD*/
+#define SERVICESWCDEM_CALIB                                                        /*TBD*/
+#define SERVICESWCDEM_CONFIG_DATA                                                  /*TBD*/
+#define SERVICESWCDEM_CONST_SAVED_RECOVERY_ZONE                                    /*TBD*/
+#define SERVICESWCDEM_APPL_DATA                                                    /*TBD*/
+#define SERVICESWCDEM_APPL_CONST                                                   /*TBD*/
+#define SERVICESWCDEM_VAR                                                          /*TBD*/
+#define SERVICESWCDEM_VAR_FAST                                                     /*TBD*/
+#define SERVICESWCDEM_VAR_SLOW                                                     /*TBD*/
+#define SERVICESWCDEM_INTERNAL_VAR                                                 /*TBD*/
+#define SERVICESWCDEM_VAR_SAVED_ZONE                                               /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */

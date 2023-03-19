@@ -1,6 +1,6 @@
 #pragma once
 /******************************************************************************/
-/* File   : CompilerCfg_ServicePduR.hpp                                       */
+/* File   : CompilerCfg_ServiceSwcCom.hpp                                     */
 /* Author : NAGARAJA HM (c) since 1982. All rights reserved.                  */
 /******************************************************************************/
 
@@ -11,21 +11,21 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define SERVICEPDUR_CODE                                                        /*TBD*/
-#define SERVICEPDUR_CODE_CB                                                     /*TBD*/
-#define SERVICEPDUR_CODE_FAST                                                   /*TBD*/
-#define SERVICEPDUR_CODE_SLOW                                                   /*TBD*/
-#define SERVICEPDUR_CONST                                                       /*TBD*/
-#define SERVICEPDUR_CALIB                                                       /*TBD*/
-#define SERVICEPDUR_CONFIG_DATA                                                 /*TBD*/
-#define SERVICEPDUR_CONST_SAVED_RECOVERY_ZONE                                   /*TBD*/
-#define SERVICEPDUR_APPL_DATA                                                   /*TBD*/
-#define SERVICEPDUR_APPL_CONST                                                  /*TBD*/
-#define SERVICEPDUR_VAR                                                         /*TBD*/
-#define SERVICEPDUR_VAR_FAST                                                    /*TBD*/
-#define SERVICEPDUR_VAR_SLOW                                                    /*TBD*/
-#define SERVICEPDUR_INTERNAL_VAR                                                /*TBD*/
-#define SERVICEPDUR_VAR_SAVED_ZONE                                              /*TBD*/
+#define SERVICESWCCOM_CODE                                                         /*TBD*/
+#define SERVICESWCCOM_CODE_CB                                                      /*TBD*/
+#define SERVICESWCCOM_CODE_FAST                                                    /*TBD*/
+#define SERVICESWCCOM_CODE_SLOW                                                    /*TBD*/
+#define SERVICESWCCOM_CONST                                                        /*TBD*/
+#define SERVICESWCCOM_CALIB                                                        /*TBD*/
+#define SERVICESWCCOM_CONFIG_DATA                                                  /*TBD*/
+#define SERVICESWCCOM_CONST_SAVED_RECOVERY_ZONE                                    /*TBD*/
+#define SERVICESWCCOM_APPL_DATA                                                    /*TBD*/
+#define SERVICESWCCOM_APPL_CONST                                                   /*TBD*/
+#define SERVICESWCCOM_VAR                                                          /*TBD*/
+#define SERVICESWCCOM_VAR_FAST                                                     /*TBD*/
+#define SERVICESWCCOM_VAR_SLOW                                                     /*TBD*/
+#define SERVICESWCCOM_INTERNAL_VAR                                                 /*TBD*/
+#define SERVICESWCCOM_VAR_SAVED_ZONE                                               /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */

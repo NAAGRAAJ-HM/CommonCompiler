@@ -1,6 +1,6 @@
 #pragma once
 /******************************************************************************/
-/* File   : CompilerCfg_ServiceCanSm.hpp                                      */
+/* File   : CompilerCfg_ServiceSwcOs.hpp                                      */
 /* Author : NAGARAJA HM (c) since 1982. All rights reserved.                  */
 /******************************************************************************/
 
@@ -11,21 +11,21 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define SERVICECANSM_CODE                                                       /*TBD*/
-#define SERVICECANSM_CODE_CB                                                    /*TBD*/
-#define SERVICECANSM_CODE_FAST                                                  /*TBD*/
-#define SERVICECANSM_CODE_SLOW                                                  /*TBD*/
-#define SERVICECANSM_CONST                                                      /*TBD*/
-#define SERVICECANSM_CALIB                                                      /*TBD*/
-#define SERVICECANSM_CONFIG_DATA                                                /*TBD*/
-#define SERVICECANSM_CONST_SAVED_RECOVERY_ZONE                                  /*TBD*/
-#define SERVICECANSM_APPL_DATA                                                  /*TBD*/
-#define SERVICECANSM_APPL_CONST                                                 /*TBD*/
-#define SERVICECANSM_VAR                                                        /*TBD*/
-#define SERVICECANSM_VAR_FAST                                                   /*TBD*/
-#define SERVICECANSM_VAR_SLOW                                                   /*TBD*/
-#define SERVICECANSM_INTERNAL_VAR                                               /*TBD*/
-#define SERVICECANSM_VAR_SAVED_ZONE                                             /*TBD*/
+#define SERVICESWCOS_CODE                                                          /*TBD*/
+#define SERVICESWCOS_CODE_CB                                                       /*TBD*/
+#define SERVICESWCOS_CODE_FAST                                                     /*TBD*/
+#define SERVICESWCOS_CODE_SLOW                                                     /*TBD*/
+#define SERVICESWCOS_CONST                                                         /*TBD*/
+#define SERVICESWCOS_CALIB                                                         /*TBD*/
+#define SERVICESWCOS_CONFIG_DATA                                                   /*TBD*/
+#define SERVICESWCOS_CONST_SAVED_RECOVERY_ZONE                                     /*TBD*/
+#define SERVICESWCOS_APPL_DATA                                                     /*TBD*/
+#define SERVICESWCOS_APPL_CONST                                                    /*TBD*/
+#define SERVICESWCOS_VAR                                                           /*TBD*/
+#define SERVICESWCOS_VAR_FAST                                                      /*TBD*/
+#define SERVICESWCOS_VAR_SLOW                                                      /*TBD*/
+#define SERVICESWCOS_INTERNAL_VAR                                                  /*TBD*/
+#define SERVICESWCOS_VAR_SAVED_ZONE                                                /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */
