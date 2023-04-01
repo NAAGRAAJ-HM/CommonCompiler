@@ -1,6 +1,6 @@
 #pragma once
 /******************************************************************************/
-/* File   : CompilerCfg_ServiceSwcStartUp.hpp                                 */
+/* File   : CompilerCfg_SwcServiceStartUp.hpp                                 */
 /* Author : NAGARAJA HM (c) since 1982. All rights reserved.                  */
 /******************************************************************************/
 
@@ -11,21 +11,21 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define SERVICESWCSTARTUP_CODE                                                     /*TBD*/
-#define SERVICESWCSTARTUP_CODE_CB                                                  /*TBD*/
-#define SERVICESWCSTARTUP_CODE_FAST                                                /*TBD*/
-#define SERVICESWCSTARTUP_CODE_SLOW                                                /*TBD*/
-#define SERVICESWCSTARTUP_CONST                                                    /*TBD*/
-#define SERVICESWCSTARTUP_CALIB                                                    /*TBD*/
-#define SERVICESWCSTARTUP_CONFIG_DATA                                              /*TBD*/
-#define SERVICESWCSTARTUP_CONST_SAVED_RECOVERY_ZONE                                /*TBD*/
-#define SERVICESWCSTARTUP_APPL_DATA                                                /*TBD*/
-#define SERVICESWCSTARTUP_APPL_CONST                                               /*TBD*/
-#define SERVICESWCSTARTUP_VAR                                                      /*TBD*/
-#define SERVICESWCSTARTUP_VAR_FAST                                                 /*TBD*/
-#define SERVICESWCSTARTUP_VAR_SLOW                                                 /*TBD*/
-#define SERVICESWCSTARTUP_INTERNAL_VAR                                             /*TBD*/
-#define SERVICESWCSTARTUP_VAR_SAVED_ZONE                                           /*TBD*/
+#define SWCSERVICESTARTUP_CODE                                                     /*TBD*/
+#define SWCSERVICESTARTUP_CODE_CB                                                  /*TBD*/
+#define SWCSERVICESTARTUP_CODE_FAST                                                /*TBD*/
+#define SWCSERVICESTARTUP_CODE_SLOW                                                /*TBD*/
+#define SWCSERVICESTARTUP_CONST                                                    /*TBD*/
+#define SWCSERVICESTARTUP_CALIB                                                    /*TBD*/
+#define SWCSERVICESTARTUP_CONFIG_DATA                                              /*TBD*/
+#define SWCSERVICESTARTUP_CONST_SAVED_RECOVERY_ZONE                                /*TBD*/
+#define SWCSERVICESTARTUP_APPL_DATA                                                /*TBD*/
+#define SWCSERVICESTARTUP_APPL_CONST                                               /*TBD*/
+#define SWCSERVICESTARTUP_VAR                                                      /*TBD*/
+#define SWCSERVICESTARTUP_VAR_FAST                                                 /*TBD*/
+#define SWCSERVICESTARTUP_VAR_SLOW                                                 /*TBD*/
+#define SWCSERVICESTARTUP_INTERNAL_VAR                                             /*TBD*/
+#define SWCSERVICESTARTUP_VAR_SAVED_ZONE                                           /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */

@@ -1,6 +1,6 @@
 #pragma once
 /******************************************************************************/
-/* File   : CompilerCfg_ServiceSwcCom.hpp                                     */
+/* File   : CompilerCfg_SwcServiceDet.hpp                                     */
 /* Author : NAGARAJA HM (c) since 1982. All rights reserved.                  */
 /******************************************************************************/
 
@@ -11,21 +11,21 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define SERVICESWCCOM_CODE                                                         /*TBD*/
-#define SERVICESWCCOM_CODE_CB                                                      /*TBD*/
-#define SERVICESWCCOM_CODE_FAST                                                    /*TBD*/
-#define SERVICESWCCOM_CODE_SLOW                                                    /*TBD*/
-#define SERVICESWCCOM_CONST                                                        /*TBD*/
-#define SERVICESWCCOM_CALIB                                                        /*TBD*/
-#define SERVICESWCCOM_CONFIG_DATA                                                  /*TBD*/
-#define SERVICESWCCOM_CONST_SAVED_RECOVERY_ZONE                                    /*TBD*/
-#define SERVICESWCCOM_APPL_DATA                                                    /*TBD*/
-#define SERVICESWCCOM_APPL_CONST                                                   /*TBD*/
-#define SERVICESWCCOM_VAR                                                          /*TBD*/
-#define SERVICESWCCOM_VAR_FAST                                                     /*TBD*/
-#define SERVICESWCCOM_VAR_SLOW                                                     /*TBD*/
-#define SERVICESWCCOM_INTERNAL_VAR                                                 /*TBD*/
-#define SERVICESWCCOM_VAR_SAVED_ZONE                                               /*TBD*/
+#define SWCSERVICEDET_CODE                                                         /*TBD*/
+#define SWCSERVICEDET_CODE_CB                                                      /*TBD*/
+#define SWCSERVICEDET_CODE_FAST                                                    /*TBD*/
+#define SWCSERVICEDET_CODE_SLOW                                                    /*TBD*/
+#define SWCSERVICEDET_CONST                                                        /*TBD*/
+#define SWCSERVICEDET_CALIB                                                        /*TBD*/
+#define SWCSERVICEDET_CONFIG_DATA                                                  /*TBD*/
+#define SWCSERVICEDET_CONST_SAVED_RECOVERY_ZONE                                    /*TBD*/
+#define SWCSERVICEDET_APPL_DATA                                                    /*TBD*/
+#define SWCSERVICEDET_APPL_CONST                                                   /*TBD*/
+#define SWCSERVICEDET_VAR                                                          /*TBD*/
+#define SWCSERVICEDET_VAR_FAST                                                     /*TBD*/
+#define SWCSERVICEDET_VAR_SLOW                                                     /*TBD*/
+#define SWCSERVICEDET_INTERNAL_VAR                                                 /*TBD*/
+#define SWCSERVICEDET_VAR_SAVED_ZONE                                               /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */

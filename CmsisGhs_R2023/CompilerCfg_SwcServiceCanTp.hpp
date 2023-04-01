@@ -1,6 +1,6 @@
 #pragma once
 /******************************************************************************/
-/* File   : CompilerCfg_ServiceSwcComM.hpp                                    */
+/* File   : CompilerCfg_SwcServiceCanTp.hpp                                   */
 /* Author : NAGARAJA HM (c) since 1982. All rights reserved.                  */
 /******************************************************************************/
 
@@ -11,21 +11,21 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define SERVICESWCCOMM_CODE                                                        /*TBD*/
-#define SERVICESWCCOMM_CODE_CB                                                     /*TBD*/
-#define SERVICESWCCOMM_CODE_FAST                                                   /*TBD*/
-#define SERVICESWCCOMM_CODE_SLOW                                                   /*TBD*/
-#define SERVICESWCCOMM_CONST                                                       /*TBD*/
-#define SERVICESWCCOMM_CALIB                                                       /*TBD*/
-#define SERVICESWCCOMM_CONFIG_DATA                                                 /*TBD*/
-#define SERVICESWCCOMM_CONST_SAVED_RECOVERY_ZONE                                   /*TBD*/
-#define SERVICESWCCOMM_APPL_DATA                                                   /*TBD*/
-#define SERVICESWCCOMM_APPL_CONST                                                  /*TBD*/
-#define SERVICESWCCOMM_VAR                                                         /*TBD*/
-#define SERVICESWCCOMM_VAR_FAST                                                    /*TBD*/
-#define SERVICESWCCOMM_VAR_SLOW                                                    /*TBD*/
-#define SERVICESWCCOMM_INTERNAL_VAR                                                /*TBD*/
-#define SERVICESWCCOMM_VAR_SAVED_ZONE                                              /*TBD*/
+#define SWCSERVICECANTP_CODE                                             /*TBD*/
+#define SWCSERVICECANTP_CODE_CB                                          /*TBD*/
+#define SWCSERVICECANTP_CODE_FAST                                        /*TBD*/
+#define SWCSERVICECANTP_CODE_SLOW                                        /*TBD*/
+#define SWCSERVICECANTP_CONST                                            /*TBD*/
+#define SWCSERVICECANTP_CALIB                                            /*TBD*/
+#define SWCSERVICECANTP_CONFIG_DATA                                      /*TBD*/
+#define SWCSERVICECANTP_CONST_SAVED_RECOVERY_ZONE                        /*TBD*/
+#define SWCSERVICECANTP_APPL_DATA                                        /*TBD*/
+#define SWCSERVICECANTP_APPL_CONST                                       /*TBD*/
+#define SWCSERVICECANTP_VAR                                              /*TBD*/
+#define SWCSERVICECANTP_VAR_FAST                                         /*TBD*/
+#define SWCSERVICECANTP_VAR_SLOW                                         /*TBD*/
+#define SWCSERVICECANTP_INTERNAL_VAR                                     /*TBD*/
+#define SWCSERVICECANTP_VAR_SAVED_ZONE                                   /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */
