@@ -1,6 +1,7 @@
-#pragma once
+#ifndef _COMPILERCFG_ECUABCANIF_H
+#define _COMPILERCFG_ECUABCANIF_H
 /******************************************************************************/
-/* File   : CompilerCfg_McalWdg.hpp                                           */
+/* File   : CompilerCfg_EcuabCanIf.h                                          */
 /*                                                                            */
 /* Author : Raajnaag HULIYAPURADA MATA                                        */
 /*                                                                            */
@@ -28,21 +29,21 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define MCALWDG_CODE                                                     /*TBD*/
-#define MCALWDG_CODE_CB                                                  /*TBD*/
-#define MCALWDG_CODE_FAST                                                /*TBD*/
-#define MCALWDG_CODE_SLOW                                                /*TBD*/
-#define MCALWDG_CONST                                                    /*TBD*/
-#define MCALWDG_CALIB                                                    /*TBD*/
-#define MCALWDG_CONFIG_DATA                                              /*TBD*/
-#define MCALWDG_CONST_SAVED_RECOVERY_ZONE                                /*TBD*/
-#define MCALWDG_APPL_DATA                                                /*TBD*/
-#define MCALWDG_APPL_CONST                                               /*TBD*/
-#define MCALWDG_VAR                                                      /*TBD*/
-#define MCALWDG_VAR_FAST                                                 /*TBD*/
-#define MCALWDG_VAR_SLOW                                                 /*TBD*/
-#define MCALWDG_INTERNAL_VAR                                             /*TBD*/
-#define MCALWDG_VAR_SAVED_ZONE                                           /*TBD*/
+#define ECUABCANIF_CODE                                                  /*TBD*/
+#define ECUABCANIF_CODE_CB                                               /*TBD*/
+#define ECUABCANIF_CODE_FAST                                             /*TBD*/
+#define ECUABCANIF_CODE_SLOW                                             /*TBD*/
+#define ECUABCANIF_CONST                                                 /*TBD*/
+#define ECUABCANIF_CALIB                                                 /*TBD*/
+#define ECUABCANIF_CONFIG_DATA                                           /*TBD*/
+#define ECUABCANIF_CONST_SAVED_RECOVERY_ZONE                             /*TBD*/
+#define ECUABCANIF_APPL_DATA                                             /*TBD*/
+#define ECUABCANIF_APPL_CONST                                            /*TBD*/
+#define ECUABCANIF_VAR                                                   /*TBD*/
+#define ECUABCANIF_VAR_FAST                                              /*TBD*/
+#define ECUABCANIF_VAR_SLOW                                              /*TBD*/
+#define ECUABCANIF_INTERNAL_VAR                                          /*TBD*/
+#define ECUABCANIF_VAR_SAVED_ZONE                                        /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */
@@ -71,4 +72,4 @@
 /******************************************************************************/
 /* EOF                                                                        */
 /******************************************************************************/
-
+#endif

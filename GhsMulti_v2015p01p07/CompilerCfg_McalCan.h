@@ -1,6 +1,7 @@
-#pragma once
+#ifndef _COMPILERCFG_MCALCAN_H
+#define _COMPILERCFG_MCALCAN_H
 /******************************************************************************/
-/* File   : CompilerCfg_McalWdg.hpp                                           */
+/* File   : CompilerCfg_McalCan.h                                             */
 /*                                                                            */
 /* Author : Raajnaag HULIYAPURADA MATA                                        */
 /*                                                                            */
@@ -28,21 +29,24 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define MCALWDG_CODE                                                     /*TBD*/
-#define MCALWDG_CODE_CB                                                  /*TBD*/
-#define MCALWDG_CODE_FAST                                                /*TBD*/
-#define MCALWDG_CODE_SLOW                                                /*TBD*/
-#define MCALWDG_CONST                                                    /*TBD*/
-#define MCALWDG_CALIB                                                    /*TBD*/
-#define MCALWDG_CONFIG_DATA                                              /*TBD*/
-#define MCALWDG_CONST_SAVED_RECOVERY_ZONE                                /*TBD*/
-#define MCALWDG_APPL_DATA                                                /*TBD*/
-#define MCALWDG_APPL_CONST                                               /*TBD*/
-#define MCALWDG_VAR                                                      /*TBD*/
-#define MCALWDG_VAR_FAST                                                 /*TBD*/
-#define MCALWDG_VAR_SLOW                                                 /*TBD*/
-#define MCALWDG_INTERNAL_VAR                                             /*TBD*/
-#define MCALWDG_VAR_SAVED_ZONE                                           /*TBD*/
+#define CAN_AR_RELEASE_MAJOR_VERSION                                           4
+#define CAN_AR_RELEASE_MINOR_VERSION                                           2
+
+#define MCALCAN_CODE                                                     /*TBD*/
+#define MCALCAN_CODE_CB                                                  /*TBD*/
+#define MCALCAN_CODE_FAST                                                /*TBD*/
+#define MCALCAN_CODE_SLOW                                                /*TBD*/
+#define MCALCAN_CONST                                                    /*TBD*/
+#define MCALCAN_CALIB                                                    /*TBD*/
+#define MCALCAN_CONFIG_DATA                                              /*TBD*/
+#define MCALCAN_CONST_SAVED_RECOVERY_ZONE                                /*TBD*/
+#define MCALCAN_APPL_DATA                                                /*TBD*/
+#define MCALCAN_APPL_CONST                                               /*TBD*/
+#define MCALCAN_VAR                                                      /*TBD*/
+#define MCALCAN_VAR_FAST                                                 /*TBD*/
+#define MCALCAN_VAR_SLOW                                                 /*TBD*/
+#define MCALCAN_INTERNAL_VAR                                             /*TBD*/
+#define MCALCAN_VAR_SAVED_ZONE                                           /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */
@@ -71,4 +75,4 @@
 /******************************************************************************/
 /* EOF                                                                        */
 /******************************************************************************/
-
+#endif

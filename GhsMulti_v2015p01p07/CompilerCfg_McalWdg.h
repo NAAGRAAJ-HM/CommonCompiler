@@ -1,6 +1,7 @@
-#pragma once
+#ifndef _COMPILERCFG_MCALWDG_H
+#define _COMPILERCFG_MCALWDG_H
 /******************************************************************************/
-/* File   : CompilerCfg_McalWdg.hpp                                           */
+/* File   : CompilerCfg_McalWdg.h                                             */
 /*                                                                            */
 /* Author : Raajnaag HULIYAPURADA MATA                                        */
 /*                                                                            */
@@ -71,4 +72,4 @@
 /******************************************************************************/
 /* EOF                                                                        */
 /******************************************************************************/
-
+#endif
