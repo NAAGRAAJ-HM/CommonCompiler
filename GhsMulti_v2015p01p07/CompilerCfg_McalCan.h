@@ -32,7 +32,7 @@
 #define CAN_AR_RELEASE_MAJOR_VERSION                                           4
 #define CAN_AR_RELEASE_MINOR_VERSION                                           2
 
-#define MCALCAN_CODE                                                     /*TBD*/
+#define MCALCAN_CODE                                   ".text.McalCan.Functions"
 #define MCALCAN_CODE_CB                                                  /*TBD*/
 #define MCALCAN_CODE_FAST                                                /*TBD*/
 #define MCALCAN_CODE_SLOW                                                /*TBD*/

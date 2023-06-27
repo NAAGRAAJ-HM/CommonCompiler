@@ -29,7 +29,7 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define MCALWDG_CODE                                                     /*TBD*/
+#define MCALWDG_CODE                                   ".text.McalWdg.Functions"
 #define MCALWDG_CODE_CB                                                  /*TBD*/
 #define MCALWDG_CODE_FAST                                                /*TBD*/
 #define MCALWDG_CODE_SLOW                                                /*TBD*/

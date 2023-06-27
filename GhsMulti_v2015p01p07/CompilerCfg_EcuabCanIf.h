@@ -29,7 +29,7 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define ECUABCANIF_CODE                                                  /*TBD*/
+#define ECUABCANIF_CODE                             ".text.EcuabCanIf.Functions"
 #define ECUABCANIF_CODE_CB                                               /*TBD*/
 #define ECUABCANIF_CODE_FAST                                             /*TBD*/
 #define ECUABCANIF_CODE_SLOW                                             /*TBD*/

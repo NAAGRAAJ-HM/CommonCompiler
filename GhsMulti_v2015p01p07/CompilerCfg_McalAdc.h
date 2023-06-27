@@ -29,7 +29,7 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define MCALADC_CODE                                                     /*TBD*/
+#define MCALADC_CODE                                   ".text.McalAdc.Functions"
 #define MCALADC_CODE_CB                                                  /*TBD*/
 #define MCALADC_CODE_FAST                                                /*TBD*/
 #define MCALADC_CODE_SLOW                                                /*TBD*/

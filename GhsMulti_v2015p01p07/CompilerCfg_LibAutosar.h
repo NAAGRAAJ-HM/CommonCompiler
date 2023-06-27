@@ -1,7 +1,7 @@
-#ifndef _COMPILERCFG_ECUABCANTRCV_H
-#define _COMPILERCFG_ECUABCANTRCV_H
+#ifndef _COMPILERCFG_LIBAUTOSAR_H
+#define _COMPILERCFG_LIBAUTOSAR_H
 /******************************************************************************/
-/* File   : CompilerCfg_EcuabCanTrcv.h                                        */
+/* File   : CompilerCfg_LibAutosar.h                                          */
 /*                                                                            */
 /* Author : Raajnaag HULIYAPURADA MATA                                        */
 /*                                                                            */
@@ -29,21 +29,21 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define ECUABCANTRCV_CODE                         ".text.EcuabCanTrcv.Functions"
-#define ECUABCANTRCV_CODE_CB                                             /*TBD*/
-#define ECUABCANTRCV_CODE_FAST                                           /*TBD*/
-#define ECUABCANTRCV_CODE_SLOW                                           /*TBD*/
-#define ECUABCANTRCV_CONST                                               /*TBD*/
-#define ECUABCANTRCV_CALIB                                               /*TBD*/
-#define ECUABCANTRCV_CONFIG_DATA                                         /*TBD*/
-#define ECUABCANTRCV_CONST_SAVED_RECOVERY_ZONE                           /*TBD*/
-#define ECUABCANTRCV_APPL_DATA                                           /*TBD*/
-#define ECUABCANTRCV_APPL_CONST                                          /*TBD*/
-#define ECUABCANTRCV_VAR                                                 /*TBD*/
-#define ECUABCANTRCV_VAR_FAST                                            /*TBD*/
-#define ECUABCANTRCV_VAR_SLOW                                            /*TBD*/
-#define ECUABCANTRCV_INTERNAL_VAR                                        /*TBD*/
-#define ECUABCANTRCV_VAR_SAVED_ZONE                                      /*TBD*/
+#define LIBAUTOSAR_CODE                             ".text.LibAutosar.Functions"
+#define LIBAUTOSAR_CODE_CB                                               /*TBD*/
+#define LIBAUTOSAR_CODE_FAST                                             /*TBD*/
+#define LIBAUTOSAR_CODE_SLOW                                             /*TBD*/
+#define LIBAUTOSAR_CONST                                                 /*TBD*/
+#define LIBAUTOSAR_CALIB                                                 /*TBD*/
+#define LIBAUTOSAR_CONFIG_DATA                                           /*TBD*/
+#define LIBAUTOSAR_CONST_SAVED_RECOVERY_ZONE                             /*TBD*/
+#define LIBAUTOSAR_APPL_DATA                                             /*TBD*/
+#define LIBAUTOSAR_APPL_CONST                                            /*TBD*/
+#define LIBAUTOSAR_VAR                                                   /*TBD*/
+#define LIBAUTOSAR_VAR_FAST                                              /*TBD*/
+#define LIBAUTOSAR_VAR_SLOW                                              /*TBD*/
+#define LIBAUTOSAR_INTERNAL_VAR                                          /*TBD*/
+#define LIBAUTOSAR_VAR_SAVED_ZONE                                        /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */

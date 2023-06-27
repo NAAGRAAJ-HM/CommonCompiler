@@ -1,7 +1,7 @@
-#ifndef _COMPILERCFG_ECUABCANTRCV_H
-#define _COMPILERCFG_ECUABCANTRCV_H
+#ifndef _COMPILERCFG_MCALFLS_H
+#define _COMPILERCFG_MCALFLS_H
 /******************************************************************************/
-/* File   : CompilerCfg_EcuabCanTrcv.h                                        */
+/* File   : CompilerCfg_McalFls.h                                             */
 /*                                                                            */
 /* Author : Raajnaag HULIYAPURADA MATA                                        */
 /*                                                                            */
@@ -29,21 +29,21 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define ECUABCANTRCV_CODE                         ".text.EcuabCanTrcv.Functions"
-#define ECUABCANTRCV_CODE_CB                                             /*TBD*/
-#define ECUABCANTRCV_CODE_FAST                                           /*TBD*/
-#define ECUABCANTRCV_CODE_SLOW                                           /*TBD*/
-#define ECUABCANTRCV_CONST                                               /*TBD*/
-#define ECUABCANTRCV_CALIB                                               /*TBD*/
-#define ECUABCANTRCV_CONFIG_DATA                                         /*TBD*/
-#define ECUABCANTRCV_CONST_SAVED_RECOVERY_ZONE                           /*TBD*/
-#define ECUABCANTRCV_APPL_DATA                                           /*TBD*/
-#define ECUABCANTRCV_APPL_CONST                                          /*TBD*/
-#define ECUABCANTRCV_VAR                                                 /*TBD*/
-#define ECUABCANTRCV_VAR_FAST                                            /*TBD*/
-#define ECUABCANTRCV_VAR_SLOW                                            /*TBD*/
-#define ECUABCANTRCV_INTERNAL_VAR                                        /*TBD*/
-#define ECUABCANTRCV_VAR_SAVED_ZONE                                      /*TBD*/
+#define MCALFLS_CODE                                   ".text.McalFls.Functions"
+#define MCALFLS_CODE_CB                                                  /*TBD*/
+#define MCALFLS_CODE_FAST                                                /*TBD*/
+#define MCALFLS_CODE_SLOW                                                /*TBD*/
+#define MCALFLS_CONST                                                    /*TBD*/
+#define MCALFLS_CALIB                                                    /*TBD*/
+#define MCALFLS_CONFIG_DATA                                              /*TBD*/
+#define MCALFLS_CONST_SAVED_RECOVERY_ZONE                                /*TBD*/
+#define MCALFLS_APPL_DATA                                                /*TBD*/
+#define MCALFLS_APPL_CONST                                               /*TBD*/
+#define MCALFLS_VAR                                                      /*TBD*/
+#define MCALFLS_VAR_FAST                                                 /*TBD*/
+#define MCALFLS_VAR_SLOW                                                 /*TBD*/
+#define MCALFLS_INTERNAL_VAR                                             /*TBD*/
+#define MCALFLS_VAR_SAVED_ZONE                                           /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */

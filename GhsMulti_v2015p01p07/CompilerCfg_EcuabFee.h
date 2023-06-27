@@ -1,7 +1,7 @@
-#ifndef _COMPILERCFG_ECUABCANTRCV_H
-#define _COMPILERCFG_ECUABCANTRCV_H
+#ifndef _COMPILERCFG_ECUABFEE_H
+#define _COMPILERCFG_ECUABFEE_H
 /******************************************************************************/
-/* File   : CompilerCfg_EcuabCanTrcv.h                                        */
+/* File   : CompilerCfg_EcuabFee.h                                            */
 /*                                                                            */
 /* Author : Raajnaag HULIYAPURADA MATA                                        */
 /*                                                                            */
@@ -29,21 +29,21 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define ECUABCANTRCV_CODE                         ".text.EcuabCanTrcv.Functions"
-#define ECUABCANTRCV_CODE_CB                                             /*TBD*/
-#define ECUABCANTRCV_CODE_FAST                                           /*TBD*/
-#define ECUABCANTRCV_CODE_SLOW                                           /*TBD*/
-#define ECUABCANTRCV_CONST                                               /*TBD*/
-#define ECUABCANTRCV_CALIB                                               /*TBD*/
-#define ECUABCANTRCV_CONFIG_DATA                                         /*TBD*/
-#define ECUABCANTRCV_CONST_SAVED_RECOVERY_ZONE                           /*TBD*/
-#define ECUABCANTRCV_APPL_DATA                                           /*TBD*/
-#define ECUABCANTRCV_APPL_CONST                                          /*TBD*/
-#define ECUABCANTRCV_VAR                                                 /*TBD*/
-#define ECUABCANTRCV_VAR_FAST                                            /*TBD*/
-#define ECUABCANTRCV_VAR_SLOW                                            /*TBD*/
-#define ECUABCANTRCV_INTERNAL_VAR                                        /*TBD*/
-#define ECUABCANTRCV_VAR_SAVED_ZONE                                      /*TBD*/
+#define ECUABFEE_CODE                                 ".text.EcuabFee.Functions"
+#define ECUABFEE_CODE_CB                                                 /*TBD*/
+#define ECUABFEE_CODE_FAST                                               /*TBD*/
+#define ECUABFEE_CODE_SLOW                                               /*TBD*/
+#define ECUABFEE_CONST                                                   /*TBD*/
+#define ECUABFEE_CALIB                                                   /*TBD*/
+#define ECUABFEE_CONFIG_DATA                                             /*TBD*/
+#define ECUABFEE_CONST_SAVED_RECOVERY_ZONE                               /*TBD*/
+#define ECUABFEE_APPL_DATA                                               /*TBD*/
+#define ECUABFEE_APPL_CONST                                              /*TBD*/
+#define ECUABFEE_VAR                                                     /*TBD*/
+#define ECUABFEE_VAR_FAST                                                /*TBD*/
+#define ECUABFEE_VAR_SLOW                                                /*TBD*/
+#define ECUABFEE_INTERNAL_VAR                                            /*TBD*/
+#define ECUABFEE_VAR_SAVED_ZONE                                          /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */

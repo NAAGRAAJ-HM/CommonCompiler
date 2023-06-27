@@ -1,7 +1,7 @@
-#ifndef _COMPILERCFG_ECUABCANTRCV_H
-#define _COMPILERCFG_ECUABCANTRCV_H
+#ifndef _COMPILERCFG_SWCSERVICENVM_H
+#define _COMPILERCFG_SWCSERVICENVM_H
 /******************************************************************************/
-/* File   : CompilerCfg_EcuabCanTrcv.h                                        */
+/* File   : CompilerCfg_SwcServiceNvM.h                                       */
 /*                                                                            */
 /* Author : Raajnaag HULIYAPURADA MATA                                        */
 /*                                                                            */
@@ -29,21 +29,21 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define ECUABCANTRCV_CODE                         ".text.EcuabCanTrcv.Functions"
-#define ECUABCANTRCV_CODE_CB                                             /*TBD*/
-#define ECUABCANTRCV_CODE_FAST                                           /*TBD*/
-#define ECUABCANTRCV_CODE_SLOW                                           /*TBD*/
-#define ECUABCANTRCV_CONST                                               /*TBD*/
-#define ECUABCANTRCV_CALIB                                               /*TBD*/
-#define ECUABCANTRCV_CONFIG_DATA                                         /*TBD*/
-#define ECUABCANTRCV_CONST_SAVED_RECOVERY_ZONE                           /*TBD*/
-#define ECUABCANTRCV_APPL_DATA                                           /*TBD*/
-#define ECUABCANTRCV_APPL_CONST                                          /*TBD*/
-#define ECUABCANTRCV_VAR                                                 /*TBD*/
-#define ECUABCANTRCV_VAR_FAST                                            /*TBD*/
-#define ECUABCANTRCV_VAR_SLOW                                            /*TBD*/
-#define ECUABCANTRCV_INTERNAL_VAR                                        /*TBD*/
-#define ECUABCANTRCV_VAR_SAVED_ZONE                                      /*TBD*/
+#define SWCSERVICENVM_CODE                       ".text.SwcServiceNvM.Functions"
+#define SWCSERVICENVM_CODE_CB                                            /*TBD*/
+#define SWCSERVICENVM_CODE_FAST                                          /*TBD*/
+#define SWCSERVICENVM_CODE_SLOW                                          /*TBD*/
+#define SWCSERVICENVM_CONST                                              /*TBD*/
+#define SWCSERVICENVM_CALIB                                              /*TBD*/
+#define SWCSERVICENVM_CONFIG_DATA                                        /*TBD*/
+#define SWCSERVICENVM_CONST_SAVED_RECOVERY_ZONE                          /*TBD*/
+#define SWCSERVICENVM_APPL_DATA                                          /*TBD*/
+#define SWCSERVICENVM_APPL_CONST                                         /*TBD*/
+#define SWCSERVICENVM_VAR                                                /*TBD*/
+#define SWCSERVICENVM_VAR_FAST                                           /*TBD*/
+#define SWCSERVICENVM_VAR_SLOW                                           /*TBD*/
+#define SWCSERVICENVM_INTERNAL_VAR                                       /*TBD*/
+#define SWCSERVICENVM_VAR_SAVED_ZONE                                     /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */
