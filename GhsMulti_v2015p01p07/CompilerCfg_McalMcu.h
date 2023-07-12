@@ -1,6 +1,6 @@
 #pragma once
 /******************************************************************************/
-/* File   : CompilerCfg_LibAutosar.h                                          */
+/* File   : CompilerCfg_McalMcu.h                                             */
 /*                                                                            */
 /* Author : Raajnaag HULIYAPURADA MATA                                        */
 /*                                                                            */
@@ -28,21 +28,21 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define LIBAUTOSAR_CODE                             ".text.LibAutosar.Functions"
-#define LIBAUTOSAR_CODE_CB                                               /*TBD*/
-#define LIBAUTOSAR_CODE_FAST                                             /*TBD*/
-#define LIBAUTOSAR_CODE_SLOW                                             /*TBD*/
-#define LIBAUTOSAR_CONST                                                 /*TBD*/
-#define LIBAUTOSAR_CALIB                                                 /*TBD*/
-#define LIBAUTOSAR_CONFIG_DATA                                           /*TBD*/
-#define LIBAUTOSAR_CONST_SAVED_RECOVERY_ZONE                             /*TBD*/
-#define LIBAUTOSAR_APPL_DATA                                             /*TBD*/
-#define LIBAUTOSAR_APPL_CONST                                            /*TBD*/
-#define LIBAUTOSAR_VAR                                                   /*TBD*/
-#define LIBAUTOSAR_VAR_FAST                                              /*TBD*/
-#define LIBAUTOSAR_VAR_SLOW                                              /*TBD*/
-#define LIBAUTOSAR_INTERNAL_VAR                                          /*TBD*/
-#define LIBAUTOSAR_VAR_SAVED_ZONE                                        /*TBD*/
+#define MCALMCU_CODE                                   ".text.McalMcu.Functions"
+#define MCALMCU_CODE_CB                                                  /*TBD*/
+#define MCALMCU_CODE_FAST                                                /*TBD*/
+#define MCALMCU_CODE_SLOW                                                /*TBD*/
+#define MCALMCU_CONST                                                    /*TBD*/
+#define MCALMCU_CALIB                                                    /*TBD*/
+#define MCALMCU_CONFIG_DATA                                              /*TBD*/
+#define MCALMCU_CONST_SAVED_RECOVERY_ZONE                                /*TBD*/
+#define MCALMCU_APPL_DATA                                                /*TBD*/
+#define MCALMCU_APPL_CONST                                               /*TBD*/
+#define MCALMCU_VAR                                                      /*TBD*/
+#define MCALMCU_VAR_FAST                                             ".rwufcopy"
+#define MCALMCU_VAR_SLOW                                                 /*TBD*/
+#define MCALMCU_INTERNAL_VAR                                             /*TBD*/
+#define MCALMCU_VAR_SAVED_ZONE                                           /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */

@@ -1,6 +1,6 @@
 #pragma once
 /******************************************************************************/
-/* File   : CompilerCfg_LibAutosar.h                                          */
+/* File   : CompilerCfg_SwcServiceStartUp.h                                   */
 /*                                                                            */
 /* Author : Raajnaag HULIYAPURADA MATA                                        */
 /*                                                                            */
@@ -28,21 +28,21 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define LIBAUTOSAR_CODE                             ".text.LibAutosar.Functions"
-#define LIBAUTOSAR_CODE_CB                                               /*TBD*/
-#define LIBAUTOSAR_CODE_FAST                                             /*TBD*/
-#define LIBAUTOSAR_CODE_SLOW                                             /*TBD*/
-#define LIBAUTOSAR_CONST                                                 /*TBD*/
-#define LIBAUTOSAR_CALIB                                                 /*TBD*/
-#define LIBAUTOSAR_CONFIG_DATA                                           /*TBD*/
-#define LIBAUTOSAR_CONST_SAVED_RECOVERY_ZONE                             /*TBD*/
-#define LIBAUTOSAR_APPL_DATA                                             /*TBD*/
-#define LIBAUTOSAR_APPL_CONST                                            /*TBD*/
-#define LIBAUTOSAR_VAR                                                   /*TBD*/
-#define LIBAUTOSAR_VAR_FAST                                              /*TBD*/
-#define LIBAUTOSAR_VAR_SLOW                                              /*TBD*/
-#define LIBAUTOSAR_INTERNAL_VAR                                          /*TBD*/
-#define LIBAUTOSAR_VAR_SAVED_ZONE                                        /*TBD*/
+#define SWCSERVICESTARTUP_CODE               ".text.SwcServiceStartUp.Functions"
+#define SWCSERVICESTARTUP_CODE_CB                                        /*TBD*/
+#define SWCSERVICESTARTUP_CODE_FAST                                      /*TBD*/
+#define SWCSERVICESTARTUP_CODE_SLOW                                      /*TBD*/
+#define SWCSERVICESTARTUP_CONST                                          /*TBD*/
+#define SWCSERVICESTARTUP_CALIB                                          /*TBD*/
+#define SWCSERVICESTARTUP_CONFIG_DATA ".rodata.SwcServiceStartUp.Configurations"
+#define SWCSERVICESTARTUP_CONST_SAVED_RECOVERY_ZONE                      /*TBD*/
+#define SWCSERVICESTARTUP_APPL_DATA                                      /*TBD*/
+#define SWCSERVICESTARTUP_APPL_CONST                                     /*TBD*/
+#define SWCSERVICESTARTUP_VAR                                            /*TBD*/
+#define SWCSERVICESTARTUP_VAR_FAST                                       /*TBD*/
+#define SWCSERVICESTARTUP_VAR_SLOW                                       /*TBD*/
+#define SWCSERVICESTARTUP_INTERNAL_VAR                                   /*TBD*/
+#define SWCSERVICESTARTUP_VAR_SAVED_ZONE                                 /*TBD*/
 
 /******************************************************************************/
 /* MACROS                                                                     */
