@@ -44,6 +44,23 @@
 #define SWCSERVICEOS_INTERNAL_VAR                                        /*TBD*/
 #define SWCSERVICEOS_VAR_SAVED_ZONE                                      /*TBD*/
 
+//TBD: Legacy sections
+#define OS_CODE
+#define OS_CODE_FAST
+#define OS_CONST
+#define OS_APPL_DATA
+#define OS_APPL_CONST
+#define OS_APPL_CODE
+#define OS_VAR_NOINIT
+#define OS_VAR_POWER_ON_INIT
+#define OS_VAR_FAST
+#define OS_VAR
+#define OS_VAR_CORE0_NOINIT
+#define OS_VAR_CORE1_NOINIT
+#define OS_VAR_CORE0_POWER_ON_INIT
+#define OS_VAR_CORE1_POWER_ON_INIT
+#define OS_OS_CBK_GETABORTSTACK_CODE
+
 /******************************************************************************/
 /* MACROS                                                                     */
 /******************************************************************************/
