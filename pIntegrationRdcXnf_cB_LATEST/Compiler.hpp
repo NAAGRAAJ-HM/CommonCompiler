@@ -43,7 +43,7 @@
 #define TYPEDEF
 
 #ifndef NULL_PTR
-#define NULL_PTR                                                     ((void *)0)
+#define NULL_PTR                                                      ((void*)0)
 #endif
 
 #define INLINE                                                          __inline
