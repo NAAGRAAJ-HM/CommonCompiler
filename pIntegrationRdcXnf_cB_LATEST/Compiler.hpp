@@ -47,6 +47,7 @@
 #endif
 
 #define INLINE                                                          __inline
+#define LOCAL                                                             static
 #define LOCAL_INLINE                                               static inline
 #define FUNC(rettype, memclass) rettype
 #define FUNC_P2CONST(rettype, ptrclass, memclass)                 const rettype*
