@@ -14,7 +14,7 @@
 /* certain responsibilities, if you distribute copies of the software, or if  */
 /* you modify it: responsibilities to respect the freedom of others.          */
 /*                                                                            */
-/* All rights reserved. Copyright © 1982 Raajnaag HULIYAPURADA MATA           */
+/* All rights reserved. Copyright ï¿½ 1982 Raajnaag HULIYAPURADA MATA           */
 /*                                                                            */
 /* Always refer latest software version from:                                 */
 /* git@github.com:RaajnaagHuliyapuradaMata/<module_name>.git                  */
@@ -29,8 +29,6 @@
 /******************************************************************************/
 /* #DEFINES                                                                   */
 /******************************************************************************/
-#define COMMONASR_RH850_IMPL_COMPABSTRACT_VERSION                         0x0001
-#define COMMONASR_RH850_IMPL_COMPABSTRACT_RELEASE_VERSION                   0x01
 #define COMPILER_VENDOR_ID                                                    1u
 #define COMPILER_MODULE_ID                                                  198u
 #define COMPILER_AR_RELEASE_MAJOR_VERSION                                   (4u)
@@ -41,11 +39,7 @@
 #define COMPILER_SW_PATCH_VERSION                                           (0u)
 #define AUTOMATIC
 #define TYPEDEF
-
-#ifndef NULL_PTR
 #define NULL_PTR                                                      ((void*)0)
-#endif
-
 #define INLINE                                                          __inline
 #define LOCAL                                                             static
 #define LOCAL_INLINE                                               static inline
