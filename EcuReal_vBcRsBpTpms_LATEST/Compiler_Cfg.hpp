@@ -46,15 +46,15 @@ Version  : 2015.1.7
 #define _CDD_CODE
 #define _CDD_APPL_DATA
 
-#define EcuabFee_PUBLIC_CODE
-#define EcuabFee_PRIVATE_CODE
-#define EcuabFee_APPL_DATA
-#define EcuabFee_FAST_DATA
-#define EcuabFee_PRIVATE_CONST
-#define EcuabFee_PUBLIC_CONST
-#define EcuabFee_NVM_CODE
+#define ECUABFEE_PUBLIC_CODE
+#define ECUABFEE_PRIVATE_CODE
+#define ECUABFEE_APPL_DATA
+#define ECUABFEE_FAST_DATA
+#define ECUABFEE_PRIVATE_CONST
+#define ECUABFEE_PUBLIC_CONST
+#define ECUABFEE_NVM_CODE
 
-#define EcuabFee_CODE EcuabFee_PUBLIC_CODE
+#define ECUABFEE_CODE ECUABFEE_PUBLIC_CODE
 #define MEMIF_CODE
 #define MEMIF_PRIVATE_CODE
 #define MEMIF_CONST
