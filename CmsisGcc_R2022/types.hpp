@@ -76,11 +76,11 @@
 #define STD_REAL_SHIFT_Q32_y ( 32 - 1)
 #define NULL_PTR ((void*)0)
 #if defined __CC_ARM  &&  (__CC_ARM == 1)
-#define INLINE 
+#define INLINE
 #elif defined (__IAR_SYSTEMS_ICC__)
-#define INLINE 
+#define INLINE
 #else
-#define INLINE 
+#define INLINE
 #endif
 
 /******************************************************************************/

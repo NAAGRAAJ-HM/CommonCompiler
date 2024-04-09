@@ -200,7 +200,7 @@
 
 #endif
 
-//#define MEMMAP_DETECT_ANY_ERROR	//RST 26.04.2019: used to find section open/close errors
+//#define MEMMAP_DETECT_ANY_ERROR   //RST 26.04.2019: used to find section open/close errors
 
 #ifdef MEMMAP_DETECT_ANY_ERROR
 

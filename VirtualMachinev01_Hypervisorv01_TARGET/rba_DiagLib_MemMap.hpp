@@ -7,7 +7,7 @@
 
 #if defined RBA_DIAGLIB_START_SEC_RAM_CLEARED
    #if defined RBA_DIAGLIB_WAS_STARTED_SEC_RAM_CLEARED
-   	#error RBA_DIAGLIB_WAS_STARTED_SEC_RAM_CLEARED already defined
+      #error RBA_DIAGLIB_WAS_STARTED_SEC_RAM_CLEARED already defined
    #endif
    #define BSW_START_SEC_DEFAULT_RAM0_CLEARED_UNSPECIFIED
     #include "Bsw_MemMap.hpp"
@@ -18,9 +18,9 @@
 
 #elif defined RBA_DIAGLIB_STOP_SEC_RAM_CLEARED
    #if ! defined RBA_DIAGLIB_WAS_STARTED_SEC_RAM_CLEARED
-   	#error RBA_DIAGLIB_STOP_SEC_RAM_CLEARED without START_SEC
+      #error RBA_DIAGLIB_STOP_SEC_RAM_CLEARED without START_SEC
    #else
-   	#undef RBA_DIAGLIB_WAS_STARTED_SEC_RAM_CLEARED
+      #undef RBA_DIAGLIB_WAS_STARTED_SEC_RAM_CLEARED
    #endif
    #define BSW_STOP_SEC_DEFAULT_RAM0_CLEARED_UNSPECIFIED
     #include "Bsw_MemMap.hpp"
@@ -30,7 +30,7 @@
 
 #elif defined RBA_DIAGLIB_START_SEC_RAM_INIT
    #if defined RBA_DIAGLIB_WAS_STARTED_SEC_RAM_INIT
-   	#error RBA_DIAGLIB_WAS_STARTED_SEC_RAM_INIT already defined
+      #error RBA_DIAGLIB_WAS_STARTED_SEC_RAM_INIT already defined
    #endif
    #define BSW_START_SEC_DEFAULT_RAM0_INIT_UNSPECIFIED
     #include "Bsw_MemMap.hpp"
@@ -41,9 +41,9 @@
 
 #elif defined RBA_DIAGLIB_STOP_SEC_RAM_INIT
    #if ! defined RBA_DIAGLIB_WAS_STARTED_SEC_RAM_INIT
-   	#error RBA_DIAGLIB_STOP_SEC_RAM_INIT without START_SEC
+      #error RBA_DIAGLIB_STOP_SEC_RAM_INIT without START_SEC
    #else
-   	#undef RBA_DIAGLIB_WAS_STARTED_SEC_RAM_INIT
+      #undef RBA_DIAGLIB_WAS_STARTED_SEC_RAM_INIT
    #endif
    #define BSW_STOP_SEC_DEFAULT_RAM0_INIT_UNSPECIFIED
     #include "Bsw_MemMap.hpp"
@@ -53,7 +53,7 @@
 
 #elif defined RBA_DIAGLIB_START_SEC_ROM_CONST
    #if defined RBA_DIAGLIB_WAS_STARTED_SEC_ROM_CONST
-   	#error RBA_DIAGLIB_WAS_STARTED_SEC_ROM_CONST already defined
+      #error RBA_DIAGLIB_WAS_STARTED_SEC_ROM_CONST already defined
    #endif
    #define BSW_START_SEC_DEFAULT_CONST_UNSPECIFIED
     #include "Bsw_MemMap.hpp"
@@ -64,9 +64,9 @@
 
 #elif defined RBA_DIAGLIB_STOP_SEC_ROM_CONST
    #if ! defined RBA_DIAGLIB_WAS_STARTED_SEC_ROM_CONST
-   	#error RBA_DIAGLIB_STOP_SEC_ROM_CONST without START_SEC
+      #error RBA_DIAGLIB_STOP_SEC_ROM_CONST without START_SEC
    #else
-   	#undef RBA_DIAGLIB_WAS_STARTED_SEC_ROM_CONST
+      #undef RBA_DIAGLIB_WAS_STARTED_SEC_ROM_CONST
    #endif
    #define BSW_STOP_SEC_DEFAULT_CONST_UNSPECIFIED
     #include "Bsw_MemMap.hpp"
@@ -76,7 +76,7 @@
 
 #elif defined RBA_DIAGLIB_START_SEC_ROM_CODE
    #if defined RBA_DIAGLIB_WAS_STARTED_SEC_ROM_CODE
-   	#error RBA_DIAGLIB_WAS_STARTED_SEC_ROM_CODE already defined
+      #error RBA_DIAGLIB_WAS_STARTED_SEC_ROM_CODE already defined
    #endif
    #define BSW_START_SEC_DEFAULT_CODE
     #include "Bsw_MemMap.hpp"
@@ -87,9 +87,9 @@
 
 #elif defined RBA_DIAGLIB_STOP_SEC_ROM_CODE
    #if ! defined RBA_DIAGLIB_WAS_STARTED_SEC_ROM_CODE
-   	#error RBA_DIAGLIB_STOP_SEC_ROM_CODE without START_SEC
+      #error RBA_DIAGLIB_STOP_SEC_ROM_CODE without START_SEC
    #else
-   	#undef RBA_DIAGLIB_WAS_STARTED_SEC_ROM_CODE
+      #undef RBA_DIAGLIB_WAS_STARTED_SEC_ROM_CODE
    #endif
    #define BSW_STOP_SEC_DEFAULT_CODE
     #include "Bsw_MemMap.hpp"
