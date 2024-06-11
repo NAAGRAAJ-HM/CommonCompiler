@@ -1,3 +1,18 @@
+#define ECUABIFCAN_CODE                                                  /*TBD*/
+#define ECUABIFCAN_CODE_CB                                               /*TBD*/
+#define ECUABIFCAN_CODE_FAST                                             /*TBD*/
+#define ECUABIFCAN_CODE_SLOW                                             /*TBD*/
+#define ECUABIFCAN_CONST                                                 /*TBD*/
+#define ECUABIFCAN_CALIB                                                 /*TBD*/
+#define ECUABIFCAN_CONFIG_DATA                                           /*TBD*/
+#define ECUABIFCAN_CONST_SAVED_RECOVERY_ZONE                             /*TBD*/
+#define ECUABIFCAN_APPL_DATA                                             /*TBD*/
+#define ECUABIFCAN_APPL_CONST                                            /*TBD*/
+#define ECUABIFCAN_VAR                                                   /*TBD*/
+#define ECUABIFCAN_VAR_FAST                                              /*TBD*/
+#define ECUABIFCAN_VAR_SLOW                                              /*TBD*/
+#define ECUABIFCAN_INTERNAL_VAR                                          /*TBD*/
+#define ECUABIFCAN_VAR_SAVED_ZONE                                        /*TBD*/
 
 #ifndef NOT_READY_FOR_TESTING_OR_DEPLOYMENT
 #error The content of this file is a template which provides empty stubs. The content of this file must be completed by the integrator accordingly to project specific requirements
