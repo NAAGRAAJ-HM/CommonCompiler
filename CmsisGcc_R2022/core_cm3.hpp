@@ -75,7 +75,6 @@ typedef union{
 #define APSR_Q_Pos                         27U                                            /*!< APSR: Q Position */
 #define APSR_Q_Msk                         (1UL << APSR_Q_Pos)                            /*!< APSR: Q Mask */
 
-
 typedef union{
    struct{
       uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number */
@@ -86,7 +85,6 @@ typedef union{
 
 #define IPSR_ISR_Pos                        0U                                            /*!< IPSR: ISR Position */
 #define IPSR_ISR_Msk                       (0x1FFUL /*<< IPSR_ISR_Pos*/)                  /*!< IPSR: ISR Mask */
-
 
 typedef union{
    struct{
